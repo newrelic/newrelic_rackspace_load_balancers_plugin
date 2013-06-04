@@ -8,6 +8,5 @@ Gem::Specification.new do |s|
   s.description = 'Rackspace LB'
   s.require_path = 'lib'
   s.add_dependency 'newrelic_rackspace_plugin'
-  s.executables << 'newrelic_rackspace_lb'
   s.files = Dir['**/*']
 end
