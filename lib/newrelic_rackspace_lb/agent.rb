@@ -28,8 +28,7 @@ module NewRelicRackspacePlugin
               log.debug "Fetching stats information for load balancer: #{lb.name}"
               # TODO/NOTE: We can only use time block queries via fog.
               # Update to use /current once implemented
-              usage = lb.usage
-              (
+              usage = lb.usage(
                 :start_time => (Time.now - 3600).strftime('%Y-%m-%d'),
                 :end_time => (Time.now + 86400).strftime('%Y-%m-%d')
               )
