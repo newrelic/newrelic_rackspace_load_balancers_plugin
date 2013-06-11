@@ -1,33 +1,36 @@
-PATH
-  remote: .
+GIT
+  remote: git@github.com:newrelic-platform/newrelic_plugin.git
+  revision: e5c20e1a333d6de16be1c690e5e5704bf7637ce8
+  branch: release
   specs:
-    newrelic_rackspace_load_balancers_plugin (0.0.1)
-      newrelic_rackspace_plugin
-
-PATH
-  remote: ../newrelic_plugin
-  specs:
-    newrelic_plugin (0.2.11)
+    newrelic_plugin (0.3.0)
       faraday (>= 0.8.1)
       json
 
-PATH
-  remote: ../newrelic_rackspace_plugin
+GIT
+  remote: git@github.com:newrelic-platform/newrelic_rackspace_plugin.git
+  revision: ddbcf076249844426aacbfebad279898d0b3355b
   specs:
-    newrelic_rackspace_plugin (0.0.1)
+    newrelic_rackspace_plugin (0.1.0)
       fog
       newrelic_plugin
+
+PATH
+  remote: .
+  specs:
+    newrelic_rackspace_load_balancers_plugin (0.1.0)
+      newrelic_rackspace_plugin
 
 GEM
   remote: https://rubygems.org/
   specs:
-    builder (3.2.0)
-    excon (0.21.0)
+    builder (3.2.2)
+    excon (0.23.0)
     faraday (0.8.7)
       multipart-post (~> 1.1)
-    fog (1.10.1)
+    fog (1.12.1)
       builder
-      excon (~> 0.20)
+      excon (~> 0.23.0)
       formatador (~> 0.2.0)
       mime-types
       multi_json (~> 1.0)
@@ -38,12 +41,12 @@ GEM
     formatador (0.2.4)
     json (1.8.0)
     mime-types (1.23)
-    multi_json (1.7.3)
+    multi_json (1.7.6)
     multipart-post (1.2.0)
     net-scp (1.1.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.6.7)
-    nokogiri (1.5.9)
+    nokogiri (1.5.10)
     ruby-hmac (0.4.0)
 
 PLATFORMS
