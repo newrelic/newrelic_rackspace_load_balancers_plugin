@@ -16,7 +16,7 @@ module NewRelicRackspacePlugin
           {:key => 'outgoing', :ref => 'outgoingTransfer', :unit => 'bytes'},
           {:key => 'outgoing_ssl', :ref => 'outgoingTransferSsl', :unit => 'bytes'}
         ]
-        
+
         def poll_cycle
           log_errors do
             fog(:loadbalancers).load_balancers.each do |lb|
@@ -51,4 +51,3 @@ module NewRelicRackspacePlugin
 end
 
 NewRelic::Plugin::Setup.install_agent :rackspace_lb, NewRelicRackspacePlugin::PluginAgent::Lb
-
