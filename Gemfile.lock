@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:newrelic-platform/newrelic_plugin.git
+  remote: https://github.com/newrelic-platform/newrelic_plugin.git
   revision: 913177005ae53883c73395833f3be0e9c6644eae
   branch: release
   specs:
@@ -8,7 +8,7 @@ GIT
       json
 
 GIT
-  remote: git@github.com:newrelic-platform/newrelic_rackspace_plugin.git
+  remote: https://github.com/newrelic-platform/newrelic_rackspace_plugin.git
   revision: 8248895b6b626e414b712f964b421b3083e45c58
   specs:
     newrelic_rackspace_plugin (0.1.0)
