@@ -4,6 +4,6 @@ module NewRelicRackspacePlugin
     class Version < Gem::Version
     end
 
-    VERSION = Version.new('0.1.0')
+    VERSION = Version.new('1.0.0')
   end
 end
