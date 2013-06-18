@@ -1,15 +1,15 @@
 GIT
   remote: git@github.com:newrelic-platform/newrelic_plugin.git
-  revision: e5c20e1a333d6de16be1c690e5e5704bf7637ce8
+  revision: 913177005ae53883c73395833f3be0e9c6644eae
   branch: release
   specs:
-    newrelic_plugin (0.3.0)
+    newrelic_plugin (1.0.1)
       faraday (>= 0.8.1)
       json
 
 GIT
   remote: git@github.com:newrelic-platform/newrelic_rackspace_plugin.git
-  revision: ddbcf076249844426aacbfebad279898d0b3355b
+  revision: 8248895b6b626e414b712f964b421b3083e45c58
   specs:
     newrelic_rackspace_plugin (0.1.0)
       fog
@@ -41,7 +41,7 @@ GEM
     formatador (0.2.4)
     json (1.8.0)
     mime-types (1.23)
-    multi_json (1.7.6)
+    multi_json (1.7.7)
     multipart-post (1.2.0)
     net-scp (1.1.1)
       net-ssh (>= 2.6.5)
