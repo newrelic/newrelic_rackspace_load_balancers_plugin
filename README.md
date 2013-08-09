@@ -34,7 +34,7 @@ You can use services like these to manage this process.
 - [Monit](http://mmonit.com/monit/)
 
 ## For Support
-Plugin support for troubleshooting assistance can be obtained by visiting [support.newrelic.com](https://support.newrelic.com)
+Plugin support and troubleshooting assistance can be obtained by visiting [support.newrelic.com](https://support.newrelic.com)
 
 ## Credits
 The New Relic Rackspace Load Balancers plugin was originally authored by [Sean Porter](https://github.com/portertech) and the team at [Heavy Water Operations](http://hw-ops.com/). Subsequent updates and support are provided by [New Relic](http://newrelic.com/platform).
