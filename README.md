@@ -19,7 +19,7 @@
 3. Replace 'KEY' with your Rackspace API key. This can be found under API Keys in your Rackspace account settings.
 4. Replace 'REGION' with the region your load balancer is located. This should be 'ord' or 'dfw'. ( *Note:* This is case sensitive)
 
-###Special Instructions for use with mutliple regions
+###Special Instructions for use with multiple regions
 If your load balancers are in multiple regions, copy all files to a secondary directory and modify the configuration files to reflect the secondary region. You will need to run the agent twice, once for each region.
 
 ## Running the agent
@@ -34,4 +34,7 @@ You can use services like these to manage this process.
 - [Monit](http://mmonit.com/monit/)
 
 ## For Support
-Plugin support for troubleshooting assistance can be obtained by visiting [support.newrelic.com](https://support.newrelic.com)
+Plugin support and troubleshooting assistance can be obtained by visiting [support.newrelic.com](https://support.newrelic.com)
+
+## Credits
+The New Relic Rackspace Load Balancers plugin was originally authored by [Sean Porter](https://github.com/portertech) and the team at [Heavy Water Operations](http://hw-ops.com/). Subsequent updates and support are provided by [New Relic](http://newrelic.com/platform).
