@@ -17,7 +17,7 @@
 1. Replace 'LICENSE KEY' with your New Relic license key
 2. Replace 'USERNAME' with your Rackspace username
 3. Replace 'KEY' with your Rackspace API key. This can be found under API Keys in your Rackspace account settings.
-4. Replace 'REGION' with the region your load balancer is located. This should be 'ord' or 'dfw'. ( *Note:* This is case sensitive)
+4. Replace 'REGION' with the region your load balancer is located. This should be 'ord', 'dfw' or 'lon'. ( *Note:* This is case sensitive)
 
 ###Special Instructions for use with multiple regions
 If your load balancers are in multiple regions, copy all files to a secondary directory and modify the configuration files to reflect the secondary region. You will need to run the agent twice, once for each region.
