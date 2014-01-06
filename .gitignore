@@ -1,5 +1,4 @@
-bin/
 vendor/
 .bundle
-*.yml
+config/newrelic_plugin.yml
 Gemfile.lock
