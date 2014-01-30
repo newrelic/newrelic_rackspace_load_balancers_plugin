@@ -6,6 +6,12 @@
 * Bundler `gem install bundler`
 * Logging must be enabled on the load balancer nodes.
 
+## Installation
+
+The Rackspace plugin can be [installed manually](#first-time-setup-instructions) or automatically with [Chef](http://www.getchef.com) and [Puppet](http://puppetlabs.com). For Chef and Puppet support see the New Relic plugin's [Chef Cookbook](http://community.opscode.com/cookbooks/newrelic_plugins) and [Puppet Module](https://forge.puppetlabs.com/newrelic/newrelic_plugins).
+
+Additional information on using Chef and Puppet with New Relic is available in New Relic's [documentation](https://docs.newrelic.com/docs/plugins/plugin-installation-with-chef-and-puppet).
+
 ## First Time Setup Instructions
 1. Download the latest tagged version from [HERE](https://github.com/newrelic-platform/newrelic_rackspace_load_balancers_plugin/tags)
 2. Extract to the location you want to run the plugin from
