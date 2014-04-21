@@ -22,3 +22,6 @@ rackspace:
 agents:
   rackspace_lb:
     enabled: true
+
+  rackspace_q:
+    enabled: true
