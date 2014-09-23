@@ -106,7 +106,7 @@ module NewRelicRackspacePlugin
     # Returns the requested type of fog connection to the rackspace
     # API. Currently supported types:
     #   :compute, :blockstorage, :storage, :loadbalancers, :databases
-    #   :cloud_monitoring, :dns, :cdn
+    #   :cloud_monitoring, :dns, :cdn, :queues
     def fog(type)
       stype = type.to_sym
       require 'fog' unless @fog
@@ -137,6 +137,8 @@ module NewRelicRackspacePlugin
           klass = Fog::CDN::Rackspace
         when :dns
           klass = Fog::DNS::Rackspace
+        when :queues
+          klass = Fog::Rackspace::Queues
         else
           raise ArgumentError.new "Invalid fog connection type received: #{type}"
         end
